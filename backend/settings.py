@@ -32,7 +32,7 @@ MY_EMAIL= env('MY_EMAIL')
 MY_EMAIL_PASS = env('MY_EMAIL_PASS')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -129,7 +129,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
+WSGI_APPLICATION = 'backend.wsgi.application' 
 
 
 # Database
