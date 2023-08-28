@@ -1,27 +1,28 @@
-# myshop API With User registration with
-#  Authorization and external db
+# myshop API With External DB
 
 
-****************************************************
-#### myshop api for myshop full stack project using the following stack: Python Django,Django REST framework, simpleJWT, PostgreSQL.
-**************************************************
-#### ***Live Server URL:https://michaelmsgbck.onrender.com***     Hosting: render.com
+
+****************************************************************
+#### myshop API for myshop full stack project using the following stack: Python Django,Django REST framework, simpleJWT, PostgreSQL, Render, SMTP
+*************************************************************
+#### ***Live Server URL:  https://myshop-django-postgre.onrender.com***     Hosting: render.com
 
 
 ************************************************
 ### Features:
-- User Registration And Autentication
-- User Logout
-- Get all registered users
-- Get all orders for logged in user 
-- Get order details for logged in user 
-- Make A new order
-- Connection to external DataBase 
+- User Registration And Autentication with JWT
+- Connection to external Postgresql DB hosted at render.com
+- User Orders history and details
+- Orders history per item and amount 
+- Serializers to models
+- Using virtual enviroment, enviromental varaibles and secrets, using 
+  .gitignore 
+
 
 
 **************************************************
 ### How To Use API 
-- #### All the using instructions and routes will be available at the postman requests file in this Repository, file name is: message_api.postman_collection.json
+- #### All the using instructions and routes will be available at the postman requests file in this Repository,
 
 
 **************************************************
